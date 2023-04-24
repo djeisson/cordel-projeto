@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+/*font-family: 'Passion One', cursive;
+font-family: 'Srisakdi', cursive;*/
+
+:root{
+    --font2:font-family: 'Passion One', cursive;
+    --font3:font-family: 'Srisakdi', cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    
+}
+
+header{
+    font-family: var(--font2);
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header>h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vw
+}
+header>p{
+    padding-bottom: 50px;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+
+}
+
+section{
+    text-shadow: 0px 0px 3px black;
+    color: white;
+    font-size: 2vw;
+    font-family: 'Srisakdi', cursive;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    color: rgb(0, 0, 0);
+    
+}
+
+section>p{
+    
+    padding: 5px;
+}
+section#imagem{
+    background-attachment: fixed;
+}
+section.img01{
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 10px black;
+}
+section.img02{
+    background-image: url('imagens/background002.jpg');
+    box-shadow: 0px 0px 10px black;
+    background-size: cover;
+    
+}
+section#imagem>p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.267);
+    border-radius: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
