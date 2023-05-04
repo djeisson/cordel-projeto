@@ -98,3 +98,21 @@ footer a:hover{
     color: black;
     border-radius: 10px;
 }
+
+@media screen and (max-width:800px) {
+    section{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    section#imagem>p{
+        font-size:2em ;
+        
+    }
+    section.normal>p{
+        font-size:2em ;
+    }
+}
